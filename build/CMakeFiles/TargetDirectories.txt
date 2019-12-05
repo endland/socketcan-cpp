@@ -1,0 +1,9 @@
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/install/local.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/install.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/install/strip.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/socketcan_cpp.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/uninstall.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/edit_cache.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/read_write.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/rebuild_cache.dir
+/home/kzi/Project/socketcan-cpp/build/CMakeFiles/list_install_components.dir

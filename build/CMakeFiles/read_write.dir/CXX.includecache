@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/socketcan_cpp/socketcan_cpp.h
+string
+-
+socketcan_cpp/socketcan_cpp_export.h
+-
+linux/can.h
+-
+
+/home/kzi/Project/socketcan-cpp/examples/read_write.cpp
+iostream
+-
+stdio.h
+-
+sys/time.h
+-
+pthread.h
+-
+unistd.h
+-
+signal.h
+-
+string.h
+-
+socketcan_cpp/socketcan_cpp.h
+/home/kzi/Project/socketcan-cpp/examples/socketcan_cpp/socketcan_cpp.h
+
+gen/socketcan_cpp/socketcan_cpp_export.h
+

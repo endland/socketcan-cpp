@@ -7,6 +7,9 @@ option(BUILD_EXAMPLES "Build socketcan_cpp examples" ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+
 include(CheckIncludeFile)
 check_include_file("linux/can.h" HAVE_LINUX_CAN_H)
 
@@ -59,7 +62,7 @@ if (BUILD_EXAMPLES)
     add_executable(read_write examples/read_write.cpp)
     set_target_properties(read_write PROPERTIES DEBUG_POSTFIX _d)
     set_target_properties(read_write PROPERTIES FOLDER examples)
-    target_link_libraries(read_write PRIVATE ::${PROJECT_NAME})
+    target_link_libraries(read_write PRIVATE ::${PROJECT_NAME} pthread)
 endif()
 
 
